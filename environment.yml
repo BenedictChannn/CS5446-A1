@@ -1,0 +1,19 @@
+name: csxx46-ay2526s2-assignment-1
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.13
+  - pip
+  - numpy==2.3.0
+  - matplotlib==3.10
+  - tqdm==4.67.3
+  - ipython==9.10
+  - ipykernel==7.1.0
+  - jupyterlab==4.5.3
+  - gymnasium>=1.2.3
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cpu
+      - torch==2.7.0
+      - pyRDDLGym==2.6
+      - rddlrepository==2.1
