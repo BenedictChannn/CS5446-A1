@@ -1,0 +1,13 @@
+name: csxx46-ay2526s2-assignment-2
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.13
+  - pip
+  - numpy==2.3.0
+  - matplotlib==3.10
+  - tqdm==4.67.3
+  - ipython==9.10
+  - ipykernel==7.1.0
+  - jupyterlab==4.5.3
