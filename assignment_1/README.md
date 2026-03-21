@@ -72,20 +72,20 @@ RDDLEnv (domain + instance)
 
 | Task | Description | Status |
 |------|-------------|--------|
-| **Task 1.1** | Define `actor_input_dim`, `actor_output_dim`, `critic_input_dim`, `critic_output_dim` in `ACAgent` | TODO |
-| **Task 1.2** | Implement `get_value()` — value predictions for batch of states | TODO |
-| **Task 1.3** | Implement `get_probs()` — categorical distribution over actions | TODO |
-| **Task 1.4** | Implement `get_action()` — sample action from distribution | TODO |
-| **Task 1.5** | Implement `get_action_logprob()` — log prob of given action | TODO |
-| **Task 2** | Implement `get_deltas()` — TD error δ_t for advantage estimation | TODO |
-| **Task 3.1.1** | Implement `get_ratio()` — probability ratio ρ_t (new/old policy) | TODO |
-| **Task 3.1.2** | Implement `get_policy_objective()` — clipped surrogate objective | TODO |
-| **Task 3.2** | Implement `get_value_loss()` — value loss with clipping | TODO |
-| **Task 3.3** | Implement `get_total_loss()` — combined PPO loss | TODO |
-| **Task 4** | Train agent, generate submission, submit to Coursemology | TODO |
+| **Task 1.1** | Define `actor_input_dim`, `actor_output_dim`, `critic_input_dim`, `critic_output_dim` in `ACAgent` | Done |
+| **Task 1.2** | Implement `get_value()` — value predictions for batch of states | Done |
+| **Task 1.3** | Implement `get_probs()` — categorical distribution over actions | Done |
+| **Task 1.4** | Implement `get_action()` — sample action from distribution | Done |
+| **Task 1.5** | Implement `get_action_logprob()` — log prob of given action | Done |
+| **Task 2** | Implement `get_deltas()` — TD error δ_t for advantage estimation | Done |
+| **Task 3.1.1** | Implement `get_ratio()` — probability ratio ρ_t (new/old policy) | Done |
+| **Task 3.1.2** | Implement `get_policy_objective()` — clipped surrogate objective | Done |
+| **Task 3.2** | Implement `get_value_loss()` — value loss with clipping | Done |
+| **Task 3.3** | Implement `get_total_loss()` — combined PPO loss | Done |
+| **Task 4** | Train agent, generate submission, submit to Coursemology | Done |
 
 **Grading:** Task 1 (5), Task 2 (1), Task 3 (4), Task 4 (5).
 
 ---
 
-*Updated as tasks are completed.*
+*All tasks completed.*
